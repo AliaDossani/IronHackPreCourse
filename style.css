@@ -228,11 +228,19 @@ h5 {
     font-size: 1.5em;
     padding: 5px 10px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 75vw;
+}
+
+.schedule-table tr {
+    display: flex;
 }
 
 .schedule-table th,
 td {
     border: solid 1px black;
+    flex: 1;
 }
 
 .footer h5 {
